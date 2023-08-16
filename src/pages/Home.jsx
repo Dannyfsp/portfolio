@@ -10,7 +10,7 @@ export default function Home() {
           Empowering Digital Success and <br /> Experiences from Behind the
           Scenes
         </h1>
-        <p>
+        <p className="text-justify">
           I'm <span className="font-bold">Aghogho Daniel Bogare</span>, a
           backend achitect. I specialize in building robust, performant and
           scalable server-side applications.

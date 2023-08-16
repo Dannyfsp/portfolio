@@ -7,7 +7,9 @@ export default function Articles() {
       <Technologies />
       <div>
         <div className="flex items-center justify-center">
-          <h1>My Articles</h1>
+          <h1 className="text-3xl font-bold mt-4 underline underline-offset-4">
+            My Articles
+          </h1>
         </div>
         <ArticleList />
       </div>

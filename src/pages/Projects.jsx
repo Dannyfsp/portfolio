@@ -6,8 +6,10 @@ export default function Projects() {
     <section>
       <Technologies />
       <div>
-        <div className="flex justify-center items-center">
-          <h1 className="text-center">My Projects</h1>
+        <div className="flex justify-center items-center mt-4">
+          <h1 className="text-center font-bold text-3xl underline underline-offset-4">
+            My Projects
+          </h1>
         </div>
         <ProjectLists />
       </div>

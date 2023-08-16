@@ -32,9 +32,9 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="mt-8">
+    <div className="mt-20">
       <div className="flex justify-center items-center my-4">
-        <h1 className="text-center font-bold">
+        <h1 className="text-center font-bold underline underline-offset-4">
           Feedback from individuals I've worked with
         </h1>
       </div>
@@ -43,7 +43,7 @@ export default function Testimonials() {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="flex justify-start items-center flex-col w-full sm:mx-[20px] mx-[5px] md:mx-[50px] p-4 rounded-lg bg-gray-600"
+            className="flex justify-start items-center flex-col w-full sm:mx-[20px] mx-[5px] md:mx-[50px] p-4 rounded-lg bg-gray-800"
           >
             <div className="flex flex-col items-center justify-around w-80 p-0 rounded-full">
               <div>

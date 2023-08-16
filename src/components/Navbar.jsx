@@ -74,7 +74,7 @@ export default function Navbar() {
                   to={link.href}
                   className={`${
                     location.pathname === link.href
-                      ? "bg-gray-400 px-4 py-1 rounded-lg"
+                      ? "bg-gray-800 px-4 py-1 rounded-lg"
                       : ""
                   }`}
                 >

@@ -12,14 +12,16 @@ export default function About() {
             <img
               src={special_danny}
               alt="danny img"
-              className="sm:w-[300px] sm:h-[500px] w-60 h-96 border-4 border-white shadow-sm shadow-white rounded-xl"
+              className="sm:w-[300px] sm:h-[500px] w-60 h-96 border-4 border-gray-800 shadow-sm shadow-gray-800 rounded-xl"
             />
           </div>
         </div>
         <div className="flex justify-center items-center md:w-1/2">
           <div className="space-y-4">
             <div className="mt-4 flex justify-center items-center">
-              <h1 className="tex-center text-3xl">About Me</h1>
+              <h1 className="tex-center text-3xl font-bold underline underline-offset-4">
+                About Me
+              </h1>
             </div>
             <div className="space-y-4">
               <p>

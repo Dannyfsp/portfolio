@@ -35,7 +35,7 @@ export default function Modal() {
         return;
       }
 
-      const res = await fetch("http://localhost:2113/api/hire", {
+      const res = await fetch("https://danbogare.onrender.com/api/hire", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

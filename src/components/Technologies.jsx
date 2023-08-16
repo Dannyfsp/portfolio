@@ -13,44 +13,41 @@ import Marquee from "react-fast-marquee";
 
 export default function Technologies() {
   return (
-    <div>
-      <div className="flex justify-center items-center text-xl">
-        <h1>My Tech Stack 😎</h1>
-      </div>
+    <div className="mt-4">
       <div className="bg-gray-200">
         <Marquee pauseOnHover={true}>
           <div>
-            <img src={nodejs} alt="nodejs" className="w-[150px] h-[75px]" />
+            <img src={nodejs} alt="nodejs" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={express} alt="express" className="w-[150px] h-[75px]" />
+            <img src={express} alt="express" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={golang} alt="golang" className="w-[150px] h-[75px]" />
+            <img src={golang} alt="golang" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={ts} alt="ts" className="w-[150px] h-[75px]" />
+            <img src={ts} alt="ts" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={postgres} alt="postgres" className="w-[150px] h-[75px]" />
+            <img src={postgres} alt="postgres" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={mysql} alt="mysql" className="w-[150px] h-[75px]" />
+            <img src={mysql} alt="mysql" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={mongodb} alt="mongodb" className="w-[150px] h-[75px]" />
+            <img src={mongodb} alt="mongodb" className="w-[100px] h-[50px]" />
           </div>
           <div className="mx-4">
-            <img src={redis} alt="redis" className="w-[150px] h-[75px]" />
+            <img src={redis} alt="redis" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={rabbitmq} alt="rabbitmq" className="w-[150px] h-[75px]" />
+            <img src={rabbitmq} alt="rabbitmq" className="w-[100px] h-[50px]" />
           </div>
           <div>
-            <img src={react} alt="react" className="w-[150px] h-[75px]" />
+            <img src={react} alt="react" className="w-[100px] h-[50px]" />
           </div>
           <div className="mx-4">
-            <img src={nextjs} alt="nextjs" className="w-[150px] h-[75px]" />
+            <img src={nextjs} alt="nextjs" className="w-[100px] h-[50px]" />
           </div>
         </Marquee>
       </div>

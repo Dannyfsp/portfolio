@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import HireButton from "./HireButton";
 import ResumeButton from "./ResumeButton";
 import useStore from "../context/store";
@@ -16,6 +16,7 @@ const links = [
 ];
 
 export default function MobileMenu() {
+  const location = useLocation();
   const { isMobileMenuOpen, toggleMobileMenu } = useStore();
 
   return (
@@ -34,7 +35,16 @@ export default function MobileMenu() {
       <ul className="flex flex-col items-center gap-4 pt-16 text-white">
         {links.map((link) => (
           <li key={link.id} onClick={() => toggleMobileMenu()}>
-            <Link to={link.href}>{link.title}</Link>
+            <Link
+              to={link.href}
+              className={`${
+                location.pathname === link.href
+                  ? "bg-gray-800 px-4 py-1 rounded-lg"
+                  : ""
+              }`}
+            >
+              {link.title}
+            </Link>
           </li>
         ))}
         <HireButton />
