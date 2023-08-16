@@ -45,7 +45,7 @@ export default function ProjectLists() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="md:w-[600px] sm:w-[500px] h-[530px] w-[400px] mx-4 rounded-xl sm:h-[600px] flex flex-col items-center justify-start my-8 bg-gray-800"
+          className="md:w-[600px] sm:w-[500px] w-[400px] md:mx-4 mx-2 rounded-xl md:h-[600px] flex flex-col items-center justify-start my-8 bg-gray-800"
         >
           <div className="">
             <div>
@@ -64,7 +64,7 @@ export default function ProjectLists() {
                   <p>{project.description}</p>
                 </div>
               </div>
-              <div className="flex justify-between items-center mt-4">
+              <div className="flex justify-between items-center my-4">
                 <div>
                   <a
                     href={project.projectLink}

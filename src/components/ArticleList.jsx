@@ -28,7 +28,7 @@ export default function ArticleList() {
       {articles.map((article, index) => (
         <div
           key={index}
-          className="md:w-[600px] sm:w-[500px] h-[720px] w-[400px] mx-4 rounded-xl sm:h-[600px] flex flex-col items-center justify-start my-8 bg-gray-800"
+          className="md:w-[600px] sm:w-[500px] w-[400px] md:mx-4 mx-2 rounded-xl sm:h-[600px] flex flex-col items-center justify-start my-8 bg-gray-800"
         >
           <div className="px-2">
             <div>
@@ -46,7 +46,7 @@ export default function ArticleList() {
                 ))}
               </div>
             </div>
-            <div className="mt-4">
+            <div className="my-4">
               <a href={article.link} target="_blank" rel="noopener noreferrer">
                 <button className="py-2 px-3 bg-white text-black rounded-lg hover:scale-105">
                   Read More
